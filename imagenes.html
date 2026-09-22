@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Establece el titulo en la pestaña superior del navegador web -->
+    <title>Imagenes en HTML</title>
+
+</head>
+
+<body>
+    <!-- Comienza el cuerpo visible del documento -->
+
+    <!-- Muestra el titulo principal de la pagina usando una etiqueta de encabezado de nivel 2 -->
+    <h2>Imagenes en HTML</h2>
+
+    <!-- Subtitulo de nivel 3 para agrupar la seccion de imagenes del almacenamiento interno -->
+    <h3>Locales</h3>
+
+    <!-- Muestra una imagen almacenada en la misma carpeta que el archivo HTML -->
+    <!-- El atributo 'alt' provee un texto descriptivo obligatorio por si el archivo no llega a cargar -->
+    <img src="caritas.png" alt="Imagen de carita feliz">
+
+    <!-- Subtitulo de nivel 3 para la seccion de imagenes locales modificadas en tamaño -->
+    <h3>Locales redismensionado</h3>
+
+    <!-- Carga una imagen metida dentro de una subcarpeta llamada 'imagenes/' -->
+    <!-- Los atributos 'width' (ancho en pixeles) y 'height' (alto en pixeles) alteran su tamaño original -->
+    <img src="imagenes/carita.png" alt="" width="200" height="100">
+
+    <!-- Subtitulo de nivel 3 para recursos externos alojados en servidores web publicos -->
+    <h3>Desde internet</h3>
+
+    <!-- Incrusta la imagen estatica de la carita feliz amarilla directamente desde un enlace URL (servidor externo) -->
+    <!-- Configura un tamaño cuadrado simetrico limitando el espacio de visualizacion a 200x200 pixeles -->
+    <img src="https://st2.depositphotos.com/2172759/11751/v/950/depositphotos_117511772-stock-illustration-happy-face-isolated-on-white.jpg" 
+    width="200" height="200"
+    alt="">
+
+    <!-- Subtitulo de nivel 3 para la seccion de imagenes con movimiento -->
+    <h3>Animaciones</h3>
+
+    <!-- Carga un archivo en formato GIF animado directo desde la plataforma Giphy -->
+    <!-- Utiliza dimensiones cuadradas controladas de 200x200 pixeles para que su visualizacion este en la cuadricula -->
+    <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExejMydmVybzBiY3lkdWd1Nnp1MzJiMXA3Ymt3czE3NGp1NDZuZDg5YiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/tXL4FHPSnVJ0A/giphy.gif" 
+    width="200" height="200"
+    alt="">
+
+<!-- Finaliza el contenedor de los elementos visibles en la pantalla de la pagina -->
+</body>
+
+</html>
