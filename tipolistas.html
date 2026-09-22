@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Establece el titulo de la pestaña del navegador como "Tipos de listas en HTML" -->
+    <title>Tipos de listas en HTML</title>
+</head>
+
+<body>
+    <!-- Comienza el cuerpo del documento donde se añade todo el contenido visible -->
+
+    <!-- Define el titulo principal de la pagina con la jerarquia mas alta (Nivel 1) -->
+    <h1>Tipos de listas</h1>
+
+    <!-- Subtitulo de nivel 2 para la primera categoria de listas -->
+    <h2>Listas ordenadas</h2>
+
+    <!-- Parrafo que describe la funcion de las listas ordenadas -->
+    <p>Una lista ordenada es una serie de elementos los cuales tendran una numeracion de acuerdo al numeros de elementos.</p>
+    
+    <!-- <ol> (Ordered List): Inicia una lista ordenada que enumerara automaticamente sus elementos (1, 2, 3...) -->
+    <ol>
+        <!-- <li> (List Item): Define un elemento o ítem individual dentro de la lista -->
+        <li>Luna Arias </li>
+        <li>Franco Andrea</li>
+        <li>Granados Evelyn</li>
+
+    <!-- Cierra la estructura de la lista ordenada -->
+    </ol>
+
+    <!-- Subtitulo de nivel 2 para la segunda categoria de listas -->
+    <h2>Listas no ordenadas</h2>
+
+    <!-- Parrafo que describe el comportamiento visual de las listas no ordenadas -->
+    <p>Las listas no ordenadas no utilizan ninguna numeracion delante de cada item sino un pequeño elemento grafico</p>
+    
+    <!-- <ul> (Unordered List): Inicia una lista no ordenada que usara viñetas (puntos negros) por defecto -->
+    <ul>
+        <!-- Elementos individuales de la lista con viñetas -->
+        <li>C</li>
+        <li>C++</li>
+        <li>Python</li>
+
+    <!-- Cierra la estructura de la lista no ordenada -->
+    </ul>
+
+    <!-- Subtitulo de nivel 2 para la tercera categoria de listas -->
+    <h2>Lista de definiciones</h2>
+    <!-- Parrafo explicativo para listas de descripción o glosarios -->
+    <p>Se utiliza para asociar un termino y la definicion del mismo</p>
+    
+    <!-- <dl> (Description List): Inicia una lista de descripción, ideal para diccionarios, glosarios o terminos -->
+    <dl>
+        <!-- Primer termino-->
+        <!-- <dt> (Description Term): Define el termino o palabra clave que se va a explicar -->
+        <dt>C++</dt>
+
+        <!-- Definicion del primer termino-->
+        <!-- <dd> (Description Details): Define la explicación o concepto del término de arriba (aplica sangria) -->
+        <dd>
+            Es un lenguaje de programacion, diseñado a mediados de los años
+            1980 como extension del lenguaje de programacion C.
+        </dd>
+
+        <!-- Segundo termino-->
+        <dt>Java</dt>
+
+        <!-- Definicion del segundo termino-->
+        <dd>
+            Es un lenguaje de programacion orientado a objetos desarrollado
+            por Sun Microsystem a principios de los 90.
+        </dd>
+
+        <!-- Tercer termino-->
+        <dt>JavaScript</dt>
+
+        <!-- Definicion del tercer termino-->
+        <dd>
+            Es un lenguaje interpretado, es decir que no requiere compilacion,
+            utilizado principalmente en paginas web, con una sintaxis similar
+            al lenguaje de programacion C.
+        </dd>
+
+    <!-- Cierra la estructura de la lista de descripcion -->
+    </dl>
+
+    <!-- Subtitulo de nivel 2 para la última categoria de listas -->
+    <h2>Listas anidadas</h2>
+    <!-- Parrafo explicativo sobre como meter una lista dentro de otra -->
+    <p>En HTML nos permite insertar una lista dentro de otra lista, se pueden anidar diferentes tipos de lista de acuerdo al requerimiento</p>
+    
+    <!-- Inicia una lista ordenada principal (numerica) -->
+    <ol>
+        <!-- Primer elemento principal ("1. Argentina") -->
+        <li>Argentina
+
+            <!-- Inicia una lista no ordenada (con viñetas) que pertenece exclusivamente a "Argentina" -->
+            <ul>
+                <!-- Ciudades de Argentina -->
+                <li>Buenos aires</li>
+                <li>La plata</li>
+                <li>Mendoza</li>
+
+            <!-- Cierra la sublista de Argentina -->
+            </ul>
+
+        <!-- Cierra el elemento principal de Argentina después de haber cerrado su sublista -->
+        </li>
+
+        <!-- Segundo elemento principal ("2. España") -->
+        <li>España
+            <ul>
+                <!-- Ciudades de España -->
+                <li>Barcelona</li>
+                <li>Madrid</li>
+                <li>Sevilla</li>
+            </ul>
+        </li>
+
+        <!-- Tercer elemento principal ("3. Mexico") -->
+        <li>Mexico
+            <ul>
+                <!-- Ciudades de México -->
+                <li>Chihuahua</li>
+                <li>Cd. Juarez</li>
+                <li>Hermosillo</li>
+            </ul>
+        </li>
+
+    <!-- Cierra la lista ordenada principal de países -->
+    </ol>
+
+<!-- Cierra el cuerpo visible de la página web -->
+</body>
+
+</html>
